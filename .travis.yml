@@ -7,4 +7,6 @@ sudo: required
 
 install: true
 
-script: chmod +x ./gradlew build
+script: 
+ - chmod +x ./gradlew
+ - ./gradlew build
