@@ -7,4 +7,4 @@ sudo: required
 
 install: true
 
-script: mvn package
+script: ./gradlew check
